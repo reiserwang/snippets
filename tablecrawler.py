@@ -14,7 +14,7 @@ value
 
 '''
 def get_tables(*args):
-    url,id,value= args;
+    url,id,value= args
     #fake useragent in http request headers
     httpheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     html=requests.get(url, headers=httpheaders)
