@@ -1,0 +1,16 @@
+astroid
+SphinxDocstring
+re
+safe_infer
+GoogleDocstring
+Docstring
+NumpyDocstring
+absolute_import
+possible_exc_types
+print_function
+node_ignores_exception
+EpytextDocstring
+inherit_from_std_ex
+space_indentation
+returns_something
+docstringify

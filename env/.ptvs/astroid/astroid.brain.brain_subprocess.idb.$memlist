@@ -1,0 +1,7 @@
+_subprocess_transform
+PY33
+PY36
+astroid
+six
+textwrap
+sys

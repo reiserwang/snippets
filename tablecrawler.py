@@ -1,20 +1,13 @@
-from bs4 import BeautifulSoup
-import requests
+"""This module provides a sample implentation crawling a webpage table into tables."""
+
 import json
 import logging
-import pyodbc
-import pprint
+from bs4 import BeautifulSoup
+import requests
 
-'''
-*args tuple
-
-url
-id
-value
-
-'''
 def get_tables(*args):
-    url,id,value= args
+    """get webpage table into list"""
+    url,id, value= args
     #fake useragent in http request headers
     httpheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     html=requests.get(url, headers=httpheaders)
@@ -22,7 +15,7 @@ def get_tables(*args):
     if __debug__:
         if not html.status_code == 200: raise AssertionError
 
-    soup=BeautifulSoup(html.text,"lxml")
+    soup = BeautifulSoup(html.text,"lxml")
     logging.debug(soup)
 
     #get table by ID
@@ -39,21 +32,21 @@ def get_tables(*args):
     data.append(table_headers)
     rows=table.find_all('tr')
     for row in rows:
-            cols=row.find_all('td')
+            cols = row.find_all('td')
             cols = [ele.text.strip() for ele in cols if ele]
             data.append([ele for ele in cols if ele]) # Get rid of empty values
     
     return data
 
 def export_json(data):
-    json_dict={}
+    json_dict = {}
     heading = data[0]
     for row in data [1:]:
-        for col_header, data_colume in zip(heading,row):
-            json_dict.setdefault(col_header,[]).append(data_colume);
+        for col_header, data_colume in zip(heading,row): 
+            json_dict.setdefault(col_header,[]).append(data_colume) 
     return json.dumps(json_dict)
 
 def traverse_list(data):
     cells = list()
     for cells in data:
-       print (cells)
+        print (cells)

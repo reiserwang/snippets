@@ -1,0 +1,17 @@
+UnknownBases
+NewAaaa
+SuperDifferentScope
+Py3kAaaa
+Py3kWrongSuper
+BaseClass
+WrongNameRegression
+SuperWithType
+subprocess
+Aaaa
+CrashSuper
+Empty
+TimeoutExpired
+Getattr
+Missing
+SuperWithSelfClass
+InvalidSuperChecks

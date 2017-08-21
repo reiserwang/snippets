@@ -1,0 +1,11 @@
+_check_docs_utils
+check_docs
+overlapping_exceptions
+emptystring
+mccabe
+comparetozero
+bad_builtin
+redefined_variable_type
+check_elif
+docstyle
+docparams

@@ -1,0 +1,12 @@
+python2_only
+textwrap
+absolute_import
+TestPython3TokenChecker
+astroid
+checker
+INFERENCE
+testutils
+pytest
+INFERENCE_FAILURE
+sys
+TestPython3Checker

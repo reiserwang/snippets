@@ -1,0 +1,17 @@
+install_requires
+author_email
+modname
+extras_require
+license
+numversion
+version
+has_environment_marker_range_operators_support
+setuptools_version
+web
+mailinglist
+py_version
+classifiers
+description
+distname
+parse_version
+author

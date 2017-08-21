@@ -1,0 +1,12 @@
+TestNameChecker
+set_config
+CheckerTestCase
+TestMultiNamingStyle
+sys
+astroid
+Message
+TestComparison
+TestDocstring
+base
+re
+unittest

@@ -1,0 +1,10 @@
+_looks_like_lru_cache
+objectmodel
+MANAGER
+helpers
+astroid
+extract_node
+LRU_CACHE
+_transform_lru_cache
+BoundMethod
+LruWrappedModel

@@ -1,0 +1,6 @@
+EXPECTED_MSGS
+mccabe
+osp
+register
+pytest
+test_max_mccabe_rate

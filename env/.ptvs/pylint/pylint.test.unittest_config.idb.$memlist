@@ -1,0 +1,10 @@
+test__regexp_csv_validator_invalid
+config
+pytest
+test__regexp_validator_invalid
+sre_constants
+test__csv_validator_spaces
+test__regexp_csv_validator_valid
+test__regexp_validator_valid
+test__csv_validator_no_spaces
+re

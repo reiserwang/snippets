@@ -1,0 +1,4 @@
+getargspec
+getcallargs
+sys
+ismethod

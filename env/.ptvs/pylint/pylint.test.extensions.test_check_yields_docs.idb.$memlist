@@ -1,0 +1,9 @@
+set_config
+TestDocstringCheckerYield
+CheckerTestCase
+division
+Message
+print_function
+absolute_import
+DocstringParameterChecker
+astroid

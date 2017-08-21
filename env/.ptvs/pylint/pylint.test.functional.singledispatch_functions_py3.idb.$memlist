@@ -1,0 +1,11 @@
+fake_singledispatch_decorator
+func2
+my_single_dispatch
+func
+bad_single_dispatch
+singledispatch
+not_single_dispatch
+print_function
+FakeSingleDispatch
+_
+with_extra_arg

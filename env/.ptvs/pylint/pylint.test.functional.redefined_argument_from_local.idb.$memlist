@@ -1,0 +1,7 @@
+test_redefined_in_for
+test_not_redefined
+test_redefined_in_except_handler
+test_not_redefined_in_except_handler
+test_not_redefined_in_for
+test_not_redefined_in_with
+test_redefined_in_with

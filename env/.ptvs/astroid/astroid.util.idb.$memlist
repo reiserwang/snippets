@@ -1,0 +1,15 @@
+proxy_alias
+_instancecheck
+six
+lazy_object_proxy
+lazy_import
+reraise
+warnings
+BadUnaryOperationMessage
+BadBinaryOperationMessage
+importlib
+BadOperationMessage
+Uninferable
+YES
+sys
+lazy_descriptor

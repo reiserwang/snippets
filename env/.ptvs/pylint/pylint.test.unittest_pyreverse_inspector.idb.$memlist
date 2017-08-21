@@ -1,0 +1,16 @@
+astroid
+test_locals_assignment_resolution
+test_interfaces
+test_instance_attrs_resolution
+test_project_node
+test_from_directory
+inspector
+get_project
+bases
+test_class_implements
+test_concat_interfaces
+project
+nodes
+os
+pytest
+test_class_implements_specialization

@@ -1,0 +1,15 @@
+similar
+test_ignore_docsrings
+join
+test_ignore_nothing
+dirname
+test_no_args
+test_help
+abspath
+test_ignore_comments
+six
+test_ignore_imports
+SIMILAR1
+pytest
+sys
+SIMILAR2

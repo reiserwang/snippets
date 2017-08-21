@@ -1,0 +1,8 @@
+set_config
+CheckerTestCase
+astroid
+Message
+TestVariablesChecker
+pytest
+classes
+sys

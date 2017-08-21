@@ -1,0 +1,8 @@
+BufferedWriter
+_transform_text_io_wrapper
+TextIOWrapper
+FileIO
+astroid
+_transform_buffered
+_generic_io_transform
+BUFFERED

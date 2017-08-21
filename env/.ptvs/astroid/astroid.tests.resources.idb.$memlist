@@ -1,0 +1,13 @@
+builder
+os
+pkg_resources
+MANAGER
+SysPathSetup
+DATA_DIR
+find
+RESOURCE_PATH
+AstroidCacheSetupMixin
+tests
+build_file
+sys
+BUILTINS

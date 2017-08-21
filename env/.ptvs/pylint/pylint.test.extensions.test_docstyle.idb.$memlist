@@ -1,0 +1,7 @@
+DocStringStyleChecker
+EXPECTED_MSGS
+osp
+checker
+test_docstring_message
+pytest
+EXPECTED_SYMBOLS

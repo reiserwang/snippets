@@ -1,0 +1,6 @@
+astroid
+TestLoggingModuleDetection
+Message
+logging
+set_config
+CheckerTestCase

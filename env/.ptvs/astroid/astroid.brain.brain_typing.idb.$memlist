@@ -1,0 +1,13 @@
+List
+infer_typing_namedtuple
+MANAGER
+Tuple
+UseInferenceDefault
+inference_tip
+TYPING_NAMEDTUPLE_BASENAMES
+extract_node
+InferenceError
+textwrap
+infer_typing_namedtuple_class
+looks_like_typing_namedtuple
+nodes
