@@ -1,6 +1,0 @@
-contextlib
-stdlib
-TestStdlibChecker
-astroid
-_add_transform
-CheckerTestCase

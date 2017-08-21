@@ -1,7 +1,0 @@
-exceptions
-CheckerTestCase
-astroid
-Message
-TestExceptionsChecker
-pytest
-sys

@@ -1,6 +1,0 @@
-astroid
-pytest
-strings
-sys
-TestStringChecker
-CheckerTestCase

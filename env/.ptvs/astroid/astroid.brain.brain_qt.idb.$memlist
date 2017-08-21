@@ -1,8 +1,0 @@
-MANAGER
-transform_pyqt_signal
-nodes
-parse
-_looks_like_signal
-AstroidBuilder
-pyqt4_qtcore_transform
-register_module_extender

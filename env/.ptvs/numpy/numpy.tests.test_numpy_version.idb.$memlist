@@ -1,8 +1,0 @@
-run_module_suite
-absolute_import
-test_valid_numpy_version
-np
-division
-assert_
-print_function
-re

@@ -1,7 +1,0 @@
-os
-linter
-reporter
-checkers
-pytest
-MinimalTestReporter
-PyLinter

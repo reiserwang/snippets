@@ -1,7 +1,0 @@
-DocStringStyleChecker
-register
-HIGH
-checkers
-linecache
-check_messages
-IAstroidChecker

@@ -1,7 +1,0 @@
-set_config
-os
-CheckerTestCase
-astroid
-Message
-TestImportsChecker
-imports

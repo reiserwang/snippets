@@ -1,9 +1,0 @@
-CompareToZeroTestReporter
-os
-osp
-BaseReporter
-CompareToZeroChecker
-CompareToZeroUsedTC
-checkers
-PyLinter
-unittest

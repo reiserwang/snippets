@@ -1,9 +1,0 @@
-set_config
-CheckerTestCase
-TestDocstringCheckerReturn
-division
-Message
-print_function
-absolute_import
-DocstringParameterChecker
-astroid

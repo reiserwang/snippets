@@ -1,8 +1,0 @@
-colorbar
-colormap_kw_doc
-make_axes_kw_doc
-make_axes
-colorbar_doc
-ColorbarBase
-CbarAxesLocator
-Colorbar

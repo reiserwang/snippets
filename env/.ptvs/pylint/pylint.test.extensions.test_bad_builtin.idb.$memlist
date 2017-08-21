@@ -1,7 +1,0 @@
-osp
-BadBuiltinChecker
-checker
-EXPECTED
-fix_import_path
-pytest
-test_types_redefined
