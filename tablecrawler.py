@@ -7,10 +7,11 @@ import requests
 
 def get_tables(*args):
     """get webpage table into list"""
-    url, id, value = args
+    url, tagid, value = args
     #fake useragent in http request headers
-    httpheaders = {'User-Agent': 
-                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+    httpheaders = {'User-Agent': \ 
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) \
+    aAppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     html=requests.get(url, headers=httpheaders)
    
     if __debug__:
@@ -18,10 +19,8 @@ def get_tables(*args):
 
     soup = BeautifulSoup(html.text,"lxml")
     logging.debug(soup)
-
-    #get table by ID
-    table = soup.find(lambda tag: tag.name=='table' and tag.has_attr(id) and tag[id]==value)
- 
+    #get table by Tag ID
+    table = soup.find(lambda tag: tag.name=='table' and tag.has_attr(tagid) and tag[tagid]==value)
     #looks stupid
     data = list()
     rows = list()
@@ -32,10 +31,9 @@ def get_tables(*args):
     data.append(table_headers)
     rows=table.find_all('tr')
     for row in rows:
-            cols = row.find_all('td')
-            cols = [ele.text.strip() for ele in cols if ele]
-            data.append([ele for ele in cols if ele]) # Get rid of empty values
-    
+        cols = row.find_all('td')
+        cols = [ele.text.strip() for ele in cols if ele]
+        data.append([ele for ele in cols if ele]) # Get rid of empty values
     return data
 
 def export_json(data):
