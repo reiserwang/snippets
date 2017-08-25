@@ -7,9 +7,10 @@ import requests
 
 def get_tables(*args):
     """get webpage table into list"""
-    url,id, value= args
+    url, id, value = args
     #fake useragent in http request headers
-    httpheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+    httpheaders = {'User-Agent': 
+                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
     html=requests.get(url, headers=httpheaders)
    
     if __debug__:
@@ -26,7 +27,6 @@ def get_tables(*args):
     rows = list()
     cols = list()
     table_headers = list()
-    json_dict = {}
     for tx in table.find_all('th'):
         table_headers.append(tx.text.strip()) 
     data.append(table_headers)
@@ -39,6 +39,7 @@ def get_tables(*args):
     return data
 
 def export_json(data):
+    """Export list to json format"""
     json_dict = {}
     heading = data[0]
     for row in data [1:]:
@@ -47,6 +48,7 @@ def export_json(data):
     return json.dumps(json_dict)
 
 def traverse_list(data):
+    """traverse list"""
     cells = list()
     for cells in data:
         print (cells)
